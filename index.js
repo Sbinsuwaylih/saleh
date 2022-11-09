@@ -1,5 +1,5 @@
 function mooncakeSays(message) {
-  let mooncake = 'Hello we ar: Saleh, asem';
+  let mooncake = 'Hello we are: Saleh, asem';
 
 
   if ( !message ) {
