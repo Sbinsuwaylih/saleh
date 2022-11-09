@@ -1,12 +1,12 @@
 function mooncakeSays(message) {
-  let mooncake = 'Hello iam: Saleh';
-  let mooncake2 = "Hello iam: asem"
+  let mooncake = 'Hello we ar: Saleh, asem';
+
 
   if ( !message ) {
-    return `${mooncake2}`;
+    return `${mooncake}`;
   }
 
-  return `${mooncake} ${mooncake2}`;
+  return `${mooncake} ${message}`;
 }
 
 module.exports.mooncakeSays = mooncakeSays;
