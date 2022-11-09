@@ -3,7 +3,7 @@ function mooncakeSays(message) {
   let mooncake2 = "Hello iam: asem"
 
   if ( !message ) {
-    return `${mooncake}`;
+    return `${mooncake2}`;
   }
 
   return `${mooncake} ${mooncake2}`;
