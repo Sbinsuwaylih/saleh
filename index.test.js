@@ -5,5 +5,5 @@ test('mooncake knows what to say', () => {
 });
 
 test('mooncake is not sure what to say', () => {
-  expect(mooncakeSays()).toBe('Hello iam:');
+  expect(mooncakeSays()).toBe('Hello iam: Saleh');
 });
